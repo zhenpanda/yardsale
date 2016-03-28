@@ -1,0 +1,232 @@
+/* general style */
+body {
+    background-color: CadetBlue;
+    color: black;
+}
+.space {
+    height: 8px;
+    padding-top: 4px;
+}
+.fade {
+    opacity: .2;
+    width: 300px;
+}
+.line-lite {
+    opacity: .5;
+    color: darkkhaki;
+}
+.show {
+    margin: auto;
+}
+
+/* page CSS*/
+.splash-img {
+	width: 600px;
+	height: 400px;
+	margin: auto;
+}
+#banner {
+    font-size: 32px;
+    margin: auto;
+    width: 460px;
+    height: 100px;
+    padding-top: 30px;
+    color: cornsilk;
+}
+
+#page {
+    margin: auto;
+    width: 600px;
+}
+.item-block {
+    margin: 8px;
+    padding: 4px;
+    border: 1px solid darkcyan;
+    opacity: .9;
+}
+.item-block:hover {
+    border: 1px navajowhite;
+    opacity: 1;
+    border-style: dotted;
+}
+.item-info {
+    padding: 16px;
+    color: teal;
+    background-color: sandybrown;
+    text-decoration: strong;
+    margin-bottom: 10px;
+}
+.item-name {
+    color: darkcyan;
+    display: inline-block;
+    font-weight: bold;
+}
+.item-stat {
+    color: lightgoldenrodyellow;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30%;
+}
+.item-display {
+    color: gold;
+    font-size: 18px;
+}
+.comment-title {
+    color: navajowhite;
+    font-size: 16px;
+    width: 200px;
+    margin: auto;
+    text-decoration: strong;
+    padding-top: 4px;
+}
+#comment-look {
+    opacity: .87;
+    color: beige;
+    margin: auto;
+    width: 400px;
+}
+.comment-msg {
+    color: cornsilk;
+    display: inline-block;
+}
+.commentor {
+    padding-left: 8px;
+    color: darkslategray;
+    display: inline-block;
+}
+#comment-input {
+    width: 150px;
+    margin: auto;
+}
+.center-button {
+    margin: auto;
+    width: 140px;
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+#input-item-button {
+    width: 140px;
+    height: 60px;
+}
+.input-item-text {
+    height: 35px;
+    width: 260px;
+    color: black;
+}
+#sale-title {
+    color: moccasin;
+    padding-bottom: 10px;
+    width: 320px;
+    font-size: 22px;
+    margin: auto;
+}
+.sell-box {
+    color: khaki;
+}
+#user {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    width: 200px;
+    height: 170px;
+    margin: 12px;
+    border: 1px solid darkcyan;
+    background-color: cadetblue;
+    opacity: .85;
+    padding: 10px;
+    color: palegoldenrod;
+}
+#user:hover {
+    border: 1px solid moccasin;
+    opacity: 1;
+}
+.log-input {
+	padding-bottom: 5px;
+}
+
+input[type=password] {
+    height: 18px;
+    border: 0;
+    width: calc(100% - 1px);
+    margin-left: 1px;
+    box-shadow: -6px 9px 0px -7px darkcyan, 2px 9px 0px -7px darkcyan;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    background-color: cadetblue;
+    width: 160px;
+    padding: 1px;
+}
+input[type=password]:focus {
+    outline: none;
+    box-shadow: -6px 9px 0px -7px #ebebeb, 2px 9px 0px -7px #ebebeb;
+    background-color: cadetblue;
+    width: 160px;
+    padding: 1px;
+}
+input[type=text] {
+    height: 18px;
+    border: 0;
+    width: calc(100% - 1px);
+    margin-left: 1px;
+    box-shadow: -6px 9px 0px -7px darkcyan, 2px 9px 0px -7px darkcyan;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    background-color: cadetblue;
+    width: 160px;
+    padding: 1px;
+}
+input[type=text]:focus {
+    outline: none;
+    box-shadow: -6px 9px 0px -7px #ebebeb, 2px 9px 0px -7px #ebebeb;
+    background-color: cadetblue;
+    width: 160px;
+    padding: 1px;
+}
+
+#log-in-button {
+	color: darkcyan;
+	padding-top: 12px;
+	width: 100px;
+	height: 50px;
+	margin: auto;
+	font-size: 26px;
+	opacity: .95;
+}
+#current-user {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    width: 200px;
+    height: 270px;
+    margin: 12px;
+    border: 1px solid darkcyan;
+    background-color: cadetblue;
+    opacity: 1;
+    padding: 10px;
+    color: palegoldenrod;
+    font-size: 14px;
+}
+#current-user:hover {
+    border: 1px solid moccasin;
+    opacity: 1;
+}
+#current-display {
+    color: darkslategray;
+}
+#user-items {
+    padding-left: 12px;
+    font-style: italic;
+    margin: 2px;
+    color: lightyellow;
+}
+#user-name {
+    padding-left: 36px;
+    font-style: bold;
+    font-size: 16px;
+    color: azure;
+}
+#weclome {
+    font-size: 18px;
+    font-style: bold;
+}
